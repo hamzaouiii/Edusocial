@@ -1,0 +1,65 @@
+#form
+{
+	margin-top: 200px;
+	border: 3px solid yellow;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
+}
+#pass
+{
+	border: 1px solid black;
+	font-size: 17px;
+	border-radius: 5px;
+	width: 610px;
+	height: 43px;
+	background-color:rgba(255,255,255,0.9);
+
+}
+#recu
+{
+	margin-top: 20px;
+}
+#pass:focus
+{
+	border: 2px solid white; 
+	background-color: rgba(243, 202, 255, 0.3);
+	padding: 3px;
+	color: black;
+}
+
+#supp
+{
+width: 100px;
+height: 40px;
+background-color: red;
+border: 1px solid black;
+border-radius: 5px;
+}
+#oublie
+{
+	border: 2px solid gold;
+	width: 720px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 20px;
+	background-color: rgba(522,255,255,0.6);
+}
+table
+{
+	margin-top: 0px;
+}
+h3
+{
+	font-family: 'Calibri';
+	font-size: 20px;
+}
+p
+{
+	font-family: 'Calibri';
+	font-size: 16px;
+}
+
+#right {color: green;}
+#wrong {color: red;}

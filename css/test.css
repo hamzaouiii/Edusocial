@@ -1,0 +1,21 @@
+
+nav 
+{
+	width: 300px;
+	display: none;
+	list-style: none;
+	border: 2px solid green
+}
+
+nav ul li:hover > ul
+{
+	display: none;
+}
+
+
+#nav ul li:hover ul {margin: 0px; padding: 0px;}
+#nav ul li:hover ul li {float: none; display: block;}
+#nav ul li:hover ul li a {color: #666; min-width: 150px}
+#nav ul li:hover ul li a:hover{color: #fff;}
+#nav ul li {position: relative;}
+#nav ul li ul{position: absolute; top: 30px; left: 0px;}

@@ -1,0 +1,78 @@
+#section h1
+{
+	color: black;
+	font-family: 'Corbel';
+	background-color: white;
+	height: 60px;
+	width: 500px;
+	border: 1px solid white;
+	margin-left: 250px;
+	padding-left: 20px;
+	border-radius: 10px;
+	padding-top: 0px;
+}
+ input
+{
+	margin-top: 20px;
+	height: 60px;
+	margin-left: 250px;
+	width: 520px;
+	font-size: 20px;
+	font-family: 'Corbel';
+	padding-left: 10px;
+}
+#but
+{
+	color: black;
+	font-family: 'Corbel';
+	background-color: white;
+	height: 60px;
+	width: 520px;
+	border: 1px solid white;
+	margin-left: 250px;
+	padding-left: 20px;
+	border-radius: 10px;
+	padding-top: 0px;
+	font-size: 24px;	
+
+}
+#foo_but 
+{
+	padding-left: 300px;
+}
+#foo_but button
+{
+	margin-top: 20px;
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	font-family: 'Corbel';
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+#section h1 img
+{
+	width: 30px;
+	height:30px; 
+	border: 2px solid rgba(0,183,229,1);
+	margin-top: 10px;
+	float: right;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+#section h1 img:hover
+{
+	background-color: rgba(0,183,229,1);	
+}
+#section
+{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	margin-bottom: 170px;
+}
+
+

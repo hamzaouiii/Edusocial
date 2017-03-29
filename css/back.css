@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#main
+{
+	background: url(../img/backgrounds/S.jpg) fixed no-repeat;
+	background-size: 100%;
+	top: 0px;
+	border: 3px solid black;
+	width: 100%;
+	height:  100%;
+	position: relative;
+}
+
+header
+{
+	width: 100%;
+	background-color: rgba(0,0,0,0.71);
+	padding-top: 125px;
+	padding-bottom: 125px;
+	position: fixed;
+	top: 0px;
+	text-align: center;
+}
+ul li 
+{
+	list-style: none;
+	display: inline-block;
+}
+li a 
+{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 75px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 3px;
+	background-color: #C1000D;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+ul li a:hover
+{
+	color: #C1000D;
+	background-color: white;
+		-webkit-transition: background 1s ease;
+-moz-transition: background 1s ease;
+-ms-transition: background 1s ease;
+-o-transition: background 1s ease;
+transition: background 1s ease;
+}
+a:visited, a:link, a:active
+{
+	color: white;
+	text-decoration: none;
+}

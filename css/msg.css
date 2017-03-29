@@ -1,0 +1,213 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: url(../img/backgrounds/blurred.jpg) fixed no-repeat;
+	background-size: 100%; 
+}
+
+header
+{
+	background-color: rgba(0,183,229,0.4); 
+	height: 60px;
+	border-bottom: 5px solid white;
+	width: 100%;
+	display: inline-block;
+	top: 0px;
+}
+header img
+{
+	width: 40px;
+	height: 40px;
+}
+
+#logo 
+{
+	float: left;
+	border: 1px solid black;
+	margin-left: 70px;
+	margin-top: 8px;
+	background-color: rgb(255,255,255);
+	-moz-border-radius-topleft: 90px;
+	-webkit-border-top-left-radius: 90px;
+	 border-top-left-radius: 90px;
+	-moz-border-radius-topright: 90px;
+	-webkit-border-top-right-radius: 90px;
+	border-top-right-radius: 90px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 90px;
+	-webkit-border-bottom-left-radius: 90px;
+	border-bottom-left-radius: 90px;
+}
+
+#dec img:hover
+{
+
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+header h1
+{
+	color: white;
+	font-family: 'Corbel';
+	font-size: 40px;
+	width: 300px;
+	margin-left: 118px;
+	margin-top: 0px;
+	padding: 15px;
+}
+ ul,li 
+{
+	list-style: none;
+	display: inline;
+}
+
+#logoetnom
+{
+	width: 300px;
+}
+#logoetnom, #menu, #pub
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	padding-left: 15px;
+	padding-right: 5px;
+	padding-top: 5px;
+	margin: 20px;
+	font-family: 'Corbel';
+	font-weight: bold;
+	font-size: 30px;
+
+}
+#menu a
+{
+}
+#dec a
+{
+	border: 2px solid white;
+	float: right;
+	margin-right: 40px;
+	}
+#menu a:link{	text-decoration: none;	color: white; }
+#menu a:visited{	text-decoration: none;	color: white;}
+#menu a:hover{	border-bottom: 5px solid  white; padding-bottom: 5px;	}
+#setting_menu li
+{
+	display: list-item;
+}
+#setting_menu ul li a:hover {background-color: white; color: rgba(0,183,229,1);}
+#setting_menu ul li a 
+{
+	text-decoration: none;
+	color: white;
+	float: left;
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 140px;
+	font-family: 'Calibri';
+	font-size: 20px;
+}
+#setting_menu ul {border: 3px solid green; text-align: left; }
+#setting_menu 
+{
+	width: 160px;
+	position: relative;
+	float: right;
+	border-radius: 5px 0px 5px 5px;
+	background-color: rgba(0,183,229,0.99);
+	margin-top: 55px;
+}
+
+#ul
+{
+	top: 10px;
+	position: absolute;
+	width: 100%;
+	height: 60px;
+}
+
+#ul ul
+{
+	margin-left: 430px;
+	margin-top: 10px;
+}
+
+#msg label
+{
+	background-color: red;
+	border-radius: 3px;
+	color: white;
+	height: 14px;
+	border: 2px solid red;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Calibri';
+	font-size: 12px;
+}
+#main 
+{
+	margin-top: 160px;
+	border: 1px solid white;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	position: relative;
+	bottom: 50px;
+}
+.new_msg
+{
+	border-bottom: 1px solid grey;
+	border-top: none;
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+	background-color: rgba(255,255,255,0.7);
+
+}
+.new_msg img 
+{
+	width: 50px;
+	height: 70px;
+	margin: 12px;
+	border: 2px solid #234f40;
+	border-radius: 3px;
+	position: absolute;
+}
+.new_msg p 
+{
+	font-family: 'Calibri';
+	font-size: 14px;
+	margin-left: 80px;
+	margin-top: 45px;
+	position: absolute;
+	padding: 10px;
+	width: 900px;
+	background-color: rgba(55,55,55,0.3);
+
+}
+label
+{
+	font-family: 'Corbel';
+	font-size: 20px;
+	margin-left: 75px;
+	margin-top: 20px;
+	position: absolute;
+}
